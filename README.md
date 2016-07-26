@@ -32,7 +32,7 @@ if (this.direction === "left"){
 
 ### Dynamically Set Images
 
-The type of pokeball shown (i.e. Greatball, UltraBall) is determined based on the size of the pokeball. When a large pokeball is split into two smaller pokeballs, the images of the smaller pokeballs are dynamically set to represent the new pokeball.
+The type of pokeball shown (i.e. Greatball, Ultraball) is determined based on the size of the pokeball. When a large pokeball is split into two smaller pokeballs, the images of the smaller pokeballs are dynamically set to represent the new pokeball.
 
 ```javascript
 const Ball = function(options) {
