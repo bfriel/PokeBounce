@@ -1,13 +1,19 @@
-#game-canvas {
-  border: 1px solid black;
-  background: #2c3e50;
-  background-size: 1000px 600px;
-  margin: 0 auto;
-}
-
 .game {
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+#game-canvas {
+  border: 3px solid black;
+  background: #2c3e50;
+  background-size: 1000px 600px;
+  margin: 0 auto;
 }
